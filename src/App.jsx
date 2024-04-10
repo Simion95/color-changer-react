@@ -33,7 +33,7 @@ const App = () => {
     <div style={{backgroundColor: colors[colorIndex]}} className="container">
     <div className="text-container">
         <p className="container-title">Background Color:</p>
-        <p style={{color: colors[colorIndex]}} className="container-title-color">#009B72</p>
+        <p style={{color: colors[colorIndex]}} className="container-title-color">{colors[colorIndex]}</p>
     </div>
     <button onClick={functionsClickMeButton} className="clickMe-button">Click me</button>
     <button onClick={resetColorAndClicks} className="reset-button">Reset</button>
